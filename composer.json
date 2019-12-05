@@ -1,0 +1,15 @@
+{
+    "name": "mzsongyan/express",
+    "description": "A waybill tracking library for Yii2, supported almost every express in China.",
+    "type": "library",
+    "require": {
+        "php": ">=5.4",
+        "yiisoft/yii2": "~2.0.5",
+        "curl/curl": "^1.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Cyy\\Express\\" : "lib/"
+        }
+    }
+}
