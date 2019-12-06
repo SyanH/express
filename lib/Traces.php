@@ -4,7 +4,7 @@ namespace Cyy\Express;
 
 use yii\base\ArrayAccessTrait;
 
-class Traces extends \yii\base\BaseObject implements \JsonSerializable, \IteratorAggregate, \Countable, \ArrayAccess
+class Traces extends \yii\base\Object implements \JsonSerializable, \IteratorAggregate, \Countable, \ArrayAccess
 {
     use ArrayAccessTrait;
 
