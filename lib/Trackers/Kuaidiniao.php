@@ -3,9 +3,9 @@
 namespace Cyy\Express\Trackers;
 
 use Curl\Curl;
-use Hejiang\Express\Exceptions\TrackingException;
-use Hejiang\Express\Waybill;
-use Hejiang\Express\Status;
+use Cyy\Express\Exceptions\TrackingException;
+use Cyy\Express\Waybill;
+use Cyy\Express\Status;
 
 class Kuaidiniao extends BaseTracker implements TrackerInterface
 {
