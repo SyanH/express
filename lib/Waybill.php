@@ -9,7 +9,7 @@ use Cyy\Express\Trackers\TrackerInterface;
  *
  * @property-read Traces $traces
  */
-class Waybill extends \yii\base\Object implements \JsonSerializable
+class Waybill extends \yii\base\BaseObject implements \JsonSerializable
 {
     /**
      * Unique ID of waybill
