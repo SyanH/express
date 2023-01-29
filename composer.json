@@ -4,8 +4,7 @@
     "type": "library",
     "require": {
         "php": ">=5.4",
-        "yiisoft/yii2": "~2.0.5",
-        "curl/curl": "^1.5"
+        "yiisoft/yii2": "~2.0.5"
     },
     "autoload": {
         "psr-4": {
